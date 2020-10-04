@@ -1,0 +1,23 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+    margin-left: 20px;
+}
+
+.subtotal__checkbox, .subtotal__checkboxLabel {
+    display: inline-block;
+}
+
+.subtotal__checoutButton {
+    background-color: orange;
+    border: 1px solid;
+    padding: 5px;
+}

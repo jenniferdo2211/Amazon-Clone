@@ -1,0 +1,34 @@
+.checkoutProduct {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.checkoutProduct__img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.checkoutProduct__info {
+    height: 100px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.checkoutProduct__title {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.checkoutProduct_rating {
+    display: flex;
+}
+
+.checkoutProduct__deleteIcon {
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    margin-top: 10px;
+}
